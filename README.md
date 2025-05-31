@@ -9,35 +9,37 @@ PDFSeal is a lightweight, cross-platform PDF encryption tool that lets you secur
   <img src="visuals/screenshot.png" alt="PDFSeal Logo" width="400"/>
 </p>
 
-🔧 Run it local with Python 3.10+
+## 🔧 Don't want to install it?
+Run it local with Python 3.10+ its just one script...
 
 ``` bash
 pip install -r requirements.txt
 python main.py
 ```
 
-📦 Build It Yourself
+## 📦 Build It Yourself
 ``` bash
 pyinstaller pdfseal.spec
 ```
 
-🚀 Ship it... 
+## 🚀 Ship an installer... 
 Build with Inno Setup using installer.iss
 
-🧪 Components
+## 🧪 Components
 Python 3.12
 Tkinter GUI
 sv_ttk for theming
 PyPDF2 for encryption
 Pillow for image handling
 
-🐾 About
+##🧐 About
+
 Created by SkinnyLabs.
 PDFSeal is open-source and free to use under the MIT License.
 
-📜 License
+## 📜 License
 MIT License
 
-🤝 Contribute
+## 🤝 Contribute
 PRs and suggestions welcome!
 Got ideas or want to brand your own tool with a seal? Open an issue!
