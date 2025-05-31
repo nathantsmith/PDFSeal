@@ -1,26 +1,16 @@
-<img src="visuals/logo.png" width="500"/>
+<p align="center">
+  <img src="visuals/logo.png" alt="PDFSeal Logo" width="300"/>
+</p>
 
 
-PDFSeal is a lightweight, cross-platform PDF encryption tool that lets you securely password-protect your PDF files with ease. Built with Python and a sleek Tkinter GUI, it's simple, efficient, and visually delightful — complete with a lounging seal.
-
-
-
-🔐 Features
-AES-128 PDF encryption using PyPDF2
-
-Auto-generate strong, random passwords
-
-Clean, cross-platform interface using tkinter + sv_ttk
-
-Follows system light/dark theme
-
-Custom branding, icons, and installer (Inno Setup support)
+PDFSeal is a lightweight, cross-platform PDF encryption tool that lets you securely password-protect your PDF files with ease. Built with Python and a sleek Tkinter GUI, it's simple, efficient, and visually delightful — complete with a lounging seal.  Just enter a password (or have the Seal generate one for you) and press encrypt, thats it. Now you don't have to pay for a certain overly-priced PDF viewer just to encrypt PDFs. 
 
 🖥️ Screenshots
-<img src="visuals/screenshot.png" width="500"/>
-🚀 Installation
-📦 Windows Installer
-Coming soon — check Releases
+<p align="center"
+  <img src="visuals/screenshot.png" alt="PDFSeal Logo" width="400"/>
+</p>
+
+
 
 🔧 From Source
 Requirements
@@ -28,29 +18,23 @@ Python 3.10+
 
 pip install -r requirements.txt
 
-Run
-bash
-Copy
-Edit
+``` bash
 python main.py
+```
+
 📦 Build It Yourself
-PyInstaller
-bash
-Copy
-Edit
+``` bash
 pyinstaller pdfseal.spec
-Inno Setup Installer
+```
+
+🚀 Ship it... 
 Build with Inno Setup using installer.iss
 
-🧪 Tech Stack
+🧪 Components
 Python 3.12
-
 Tkinter GUI
-
 sv_ttk for theming
-
 PyPDF2 for encryption
-
 Pillow for image handling
 
 🐾 About
