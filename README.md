@@ -5,8 +5,8 @@
 
 PDFSeal is a lightweight, cross-platform PDF encryption tool that lets you securely password-protect your PDF files with ease. Built with Python and a sleek Tkinter GUI, it's simple, efficient, and visually delightful — complete with a lounging seal.  Just enter a password (or have the Seal generate one for you) and press encrypt, thats it. Now you don't have to pay for a certain overly-priced PDF viewer just to encrypt PDFs. 
 
-🖥️ Screenshots
 <img src="visuals/screenshot.png" width="500"/>
+
 
 🔧 From Source
 Requirements
