@@ -23,8 +23,8 @@ def resource_path(relative_path):
 
     return os.path.join(base_path, relative_path)
 
-def generate_password(length=12):
-    charset = string.ascii_letters + string.digits
+def generate_password(length=16):
+    charset = string.ascii_letters + string.digits + string.punctuation
     return ''.join(secrets.choice(charset) for _ in range(length))
 
 def encrypt_pdf(input_path, output_path, password):
