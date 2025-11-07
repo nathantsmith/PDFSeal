@@ -32,7 +32,7 @@ sv_ttk for theming
 PyPDF2 for encryption
 Pillow for image handling
 
-##🧐 About
+## 🧐 About
 
 Created by SkinnyLabs.
 PDFSeal is open-source and free to use under the MIT License.
@@ -43,3 +43,4 @@ MIT License
 ## 🤝 Contribute
 PRs and suggestions welcome!
 Got ideas or want to brand your own tool with a seal? Open an issue!
+
